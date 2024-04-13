@@ -1,0 +1,63 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.logo-img {
+    width: 300px;
+}
+
+.user-img {
+    padding: 50px;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 5px 0 5px #252525;
+}
+
+.main-user {
+    margin: 10px;
+    display: flex;
+}
+
+.user {
+    padding-left: 10px;
+}
+
+.imgs {
+    width: 100%;
+}
+
+.icons > button > img {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+.icons > button > img:hover {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+
+.icons > button {
+    border: none;
+    background: #fff;
+}
+
+.icons {
+    margin: 5px;
+}
+
+.like-nums, .like-txt {
+    margin: 10px;
+}
+
